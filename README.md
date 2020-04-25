@@ -74,4 +74,5 @@ Add alias for git lon in one line
 Usage
 `git logline`
 
+
 (Source: https://ma.ttias.be/pretty-git-log-in-one-line)
