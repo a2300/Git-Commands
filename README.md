@@ -71,8 +71,8 @@ _A list of my commonly used Git commands_
 
 Add alias for git lon in one line
 `git config --global alias.logline "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"`
+
 Usage
 `git logline`
-
 
 (Source: https://ma.ttias.be/pretty-git-log-in-one-line)
