@@ -124,3 +124,25 @@ Remove (Reset) changes from working area and stage area, e.g. substitute them fr
 `git reset --hard HEAD`
  
  
+ 
+ _Stashing_
+ 
+ Stash changes in working area as well as in staging area
+ 
+ `git stash --include-untracked`
+ 
+ List of stashing changes
+ 
+ `git stash list`
+ 
+ Apply change from stash area to working area as well to stage area
+ 
+ `git stash apply`
+ 
+ Remove all the stash entries
+ 
+ `git stash clear`
+ 
+ 
+ 
+ 
