@@ -100,4 +100,27 @@ Usage
 | ..| If approvals got, with help of github squash and merge new remote branch into remote develop branch  | |
 | ..| With help of github remove new remote branch | | 
 
+
 ### Other Git Commands
+
+See difference between staged area and repository area (what's will be committed)
+
+`git diff --cached`
+
+Unstage file from stage area
+
+`git restore --staged <file>`
+
+or
+
+`git rm --cached <file>`
+ 
+ Move/Rename file
+
+`git mv <old file> <new file>`
+ 
+Remove (Reset) changes from working area and stage area, e.g. substitute them from repository area (destructive command)
+
+`git reset --hard HEAD`
+ 
+ 
