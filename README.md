@@ -78,7 +78,7 @@ Usage
 (Source: https://ma.ttias.be/pretty-git-log-in-one-line)
 
 
-### Git workflow
+### Git and GitHub workflow
 
 | N | Description | Command |
 |---| ----------- | ------- |
@@ -94,5 +94,10 @@ Usage
 | 8 | Update local repository to the newest commit from develop | `git pull` |
 | 9 | Switch to a new branch | `git checkout [branch name]` |
 | 10| Rebase new branch with develop branch | `git rebase [develop branch]` |
+| ..| Resolve conflicts if any | |
 | 11| Push a new branch to your remote repository| `git push origin [branch name]` |
+| ..| With help of github create pull request and ask for approvals | |
+| ..| If approvals got, with help of github squash and merge new remote branch into remote develop branch  | |
+| ..| With help of github remove new remote branch | | 
 
+### Other Git Commands
