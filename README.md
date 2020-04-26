@@ -143,6 +143,8 @@ Remove (Reset) changes from working area and stage area, e.g. substitute them fr
  
  `git stash clear`
  
+ Undo changes for single file from stage area. Content is taken from repository area.
+ (Working area and stage are are affected, desctructive operation)
  
- 
+ `git checkout HEAD <file>`
  
