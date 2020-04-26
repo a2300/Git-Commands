@@ -76,3 +76,23 @@ Usage
 `git logline`
 
 (Source: https://ma.ttias.be/pretty-git-log-in-one-line)
+
+
+### Git workflow
+
+| N | Description | Command |
+|---| ----------- | ------- |
+| 1 | Switch to a develop branch | `git checkout [develop branch]` |
+| 2 | Update local repository to the newest commit from develop | `git pull` |
+| 3 | Create a new branch and switch to it |`git checkout -b [branch name]`  |
+| ..| ..................... | |
+| 4 | Add/Remove/Edit files | |
+| ..| ..................... | |
+| 5 | Add a file to the staging area |`git add [file-name.txt]`  |
+| 6 | Commit changes in new brach | `git commit -m "[commit message]"`  |
+| 7 | Switch to a develop branch | `git checkout [develop branch]` |
+| 8 | Update local repository to the newest commit from develop | `git pull` |
+| 9 | Switch to a new branch | `git checkout [branch name]` |
+| 10| Rebase new branch with develop branch | `git rebase [develop branch]` |
+| 11| Push a new branch to your remote repository| `git push origin [branch name]` |
+
