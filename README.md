@@ -148,3 +148,37 @@ Remove (Reset) changes from working area and stage area, e.g. substitute them fr
  
  `git checkout HEAD <file>`
  
+
+_Exploring history_
+
+One line git log history
+
+`git log --graph --decorate --oneline`
+
+See what's inside commit by <commit-id>
+ 
+ `git show 77dac20`
+ 
+ Reference to commit by HEAD
+ 
+ `git show HEAD` - show HEAD commit
+ `git show HEAD^` - show parent HEAD commit
+ `git show HEAD^^` - show parent of parent HEAD commit
+ `git show HEAD~3`
+ 
+ Compare what was added in 2 last commit
+ 
+ `git diff HEAD HEAD~2`
+ 
+ Difference between 2 branches
+ 
+ `git diff feature1 master`
+ 
+ Output last 3 commits
+ 
+ `git log -3 --oneline`
+ 
+ Output last 5 commits
+ 
+ `git log HEAD~5..HEAD^ --oneline`
+ 
