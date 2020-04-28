@@ -182,3 +182,18 @@ See what's inside commit by <commit-id>
  
  `git log HEAD~5..HEAD^ --oneline`
  
+Modify last commit
+
+`git commit --amend`
+
+Interactive rebase
+
+`git rebase -i`
+
+Access to reflogs
+
+`git reflog`
+
+Revert changes done in previous commit
+
+`git revert HEAD`
