@@ -209,7 +209,7 @@ You'll see a response similar to:
 Enter file in which to save the key (/home/user/.ssh/id_ed25519):
 `
 
-Adding an SSH key to your GitLab account
+### Adding an SSH key to your GitLab account
 1)Copy your public SSH key to a location that saves information in text format. The following options saves information for ED25519 keys to the clipboard
 for the noted operating system:
 Git Bash on Windows:
@@ -237,5 +237,5 @@ Home Workstation.
 8)Click the Add key button.
 
 
-Testing that everything is set up correctly
+### Testing that everything is set up correctly
 `ssh -T git@gitlab.com`
