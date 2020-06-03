@@ -197,3 +197,45 @@ Access to reflogs
 Revert changes done in previous commit
 
 `git revert HEAD`
+
+### Generating a new SSH key pair
+
+ED25519 SSH keys
+`ssh-keygen -t ed25519 -C "my@mail.com"`
+
+You'll see a response similar to:
+
+`Generating public/private ed25519 key pair.
+Enter file in which to save the key (/home/user/.ssh/id_ed25519):
+`
+
+Adding an SSH key to your GitLab account
+1)Copy your public SSH key to a location that saves information in text format. The following options saves information for ED25519 keys to the clipboard
+for the noted operating system:
+Git Bash on Windows:
+`cat ~/.ssh/id_ed25519.pub | clip`
+
+2)Navigate to http://gitlab.com and sign in.
+
+
+3)Select your avatar in the upper right corner, and click Settings
+
+
+4)Click SSH Keys.
+
+
+5)Paste the public key that you copied into the Key text box.
+
+
+6)Make sure your key includes a descriptive name in the Title text box, such as Work Laptop or
+Home Workstation.
+
+
+7)Include an (optional) expiry date for the key under "Expires at" section. (Introduced in GitLab 12.9.)
+
+
+8)Click the Add key button.
+
+
+Testing that everything is set up correctly
+`ssh -T git@gitlab.com`
