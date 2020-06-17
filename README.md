@@ -242,3 +242,6 @@ Home Workstation.
 
 ### Testing that everything is set up correctly
 `ssh -T git@gitlab.com`
+
+Link:
+https://help.github.com/en/github/authenticating-to-github/testing-your-ssh-connection
